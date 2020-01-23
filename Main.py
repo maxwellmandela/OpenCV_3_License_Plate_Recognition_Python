@@ -69,7 +69,7 @@ def main():
 
         cv2.imshow("imgOriginalScene", imgOriginalScene)                # re-show scene image
 
-        cv2.imwrite("imgOriginalScene.png", imgOriginalScene)           # write image out to file
+        cv2.imwrite("output/imgOriginalScene.png", imgOriginalScene)           # write image out to file
 
     # end if else
 
